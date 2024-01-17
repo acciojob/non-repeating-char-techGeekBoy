@@ -2,12 +2,17 @@ function firstNonRepeatedChar(str) {
  // Write your code here
 	let freqobj={};
 	for(let char in str){
-		freqobj[char]=1;
-		return  char;
+		if(freqobj[char]){
+			freqobj[char]++;
+		}
+		else{
+			freq[char]=1;
+			
+		}
+	}
+	console.log(freqobj);
+
 	
-	}
-		return null;
-	}
 	
 }
 const input = prompt("Enter a string");

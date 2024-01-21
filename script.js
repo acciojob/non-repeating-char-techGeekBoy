@@ -6,6 +6,7 @@ function firstNonRepeatedChar(str) {
 		}
 		else{
 			charcount[x]=1;
+			return x;
 		}
 	}
 		return null;

@@ -7,8 +7,9 @@ function firstNonRepeatedChar(str) {
 		else{
 			charcount[x]=1;
 		}
+	}
 		return null;
 	}
 
-const input = prompt("Enter a string");
-alert(firstNonRepeatedChar(input)); 
+// const input = prompt("Enter a string");
+// alert(firstNonRepeatedChar(input)); 
